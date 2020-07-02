@@ -1,33 +1,49 @@
-mobb someMobb12 weaqlar;
+mobb someMobb12 weaqlar| no of yields, teller, report code;
+exst someMobb12| no of yields, mob;
+
+someMobb12 / prss| no of yields, teller, report code;
+
+#### 1: This should be some algorithm step. #
+.... some instruction ....
+
+#### 2: This should be some algorithm step. #
+.... some instruction ....
+#### 2 #
+#### 1 #
+
+m
 
 	weaqlar
 
-	someMobb12 / fgre 'ncnncccnncccnncncnccnccnnccncccncncc'-someMobb12| teller, report code;
+	someMobb12 / fgre 'ncnncccnncccnncncnccnccnnccncccncnc'-someMobb12| no of yields, teller,
+		report code;
 		
-		someMobb12 / $add$ 'nnnccncnnccnnccc'-someMobb12 someMobb12| teller, report code;
+		someMobb12 / $add$ 'nnccncnnccnnccc'-someMobb12 someMobb12| no of yields, teller,
+			report code;
 		
-		someMobb12 / $crdn| teller, report code, mob;
+		someMobb12 / $crdn| no of yields, teller, report code, mob;
 		
-		someMobb12 / $get$ 1-someMobb12-1:5-someMobb12:someMobb12 [gWCI]| teller,
-			report code, mob;
+		someMobb12 / $get$ 1-someMobb12-1:5-someMobb12:someMobb12 [gWCI]| no of yields,
+			teller, report code, mob;
 		*| gWCI: get without cutting it out |*
 
-		someMobb12 someMobb234 / $idnt| mob;
+		someMobb12 someMobb23 / $idnt| no of yields, mob;
 
 	==== ==== ==== ====
 
-	someMobb12 / clne| mob;
+	someMobb12 / clne| no of yields, mob;
 
 	lIns / name someName12;
-	*| 1#someName12 |*
+	*| someName12#1 |*
+
 
 	.... some instruction ....;
 	[
 		instruction set
 	]
 
-	<bBfr>: .... x ....;
-	@someBbfrMob
+**	<bBfr>: .... x ....;
+**	@someBbfrMob
 
 	*| This is some note we can use to do a lot of things. |*
 
@@ -55,7 +71,9 @@ mobb someMobb12 weaqlar;
 		*| brak |*
 	]
 
-	rpat: [
+	itrn
+
+	rpat 'c'-someMobb12-endl: [
 		.... x ....;
 		*| brak |*
 	]

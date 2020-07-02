@@ -1,0 +1,6 @@
+type someType12 {
+	fnct someFunc12 [
+		!#1
+		!#2#type
+
+		
