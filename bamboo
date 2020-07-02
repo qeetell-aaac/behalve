@@ -16,11 +16,6 @@ mobb someMobb12 weaqlar;
 
 	==== ==== ==== ====
 
-	#### 1: Whatever shit you have to say, can be said here. #
-	#### 2: Whatever shit you have to say, can be said here. #
-	#### 2 #
-	#### 1 #	
-
 	someMobb12 / clne| mob;
 
 	lIns / name someName12;
@@ -51,12 +46,12 @@ mobb someMobb12 weaqlar;
 		lRsr: .... x ....;
 	}
 
-	eVrb {
+	eVrb: [
 		.... x ....;
 		.... x ....;
 		.... x ....;
 		.... x ....;
-	}: [
+	]: [
 		*| brak |*
 	]
 
@@ -65,6 +60,3 @@ mobb someMobb12 weaqlar;
 		*| brak |*
 	]
 
-	==== ==== ==== ====
-
-	
