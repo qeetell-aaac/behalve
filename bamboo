@@ -1,7 +1,13 @@
-mobb someMobb12 weaqlar| no of yields, teller, report code;
-exst someMobb12| no of yields, mob;
+	wqlr: weaqlar
+	vqlr: veaqlar
 
-someMobb12 / prss| no of yields, teller, report code;
+==== ==== ==== ====
+
+mobb / crte someMobb12 weaqlar-mobbType| teller, report;
+
+someMobb12 / exst| teller, report, mob;
+
+someMobb12 / prss| teller, report;
 
 #### 1: This should be some algorithm step. #
 .... some instruction ....
@@ -11,30 +17,22 @@ someMobb12 / prss| no of yields, teller, report code;
 #### 2 #
 #### 1 #
 
-m
+someMobb12 / fgre 'nccccnncccnncccnncncnccnccnnccncccncnc'-someMobb12| teller, report;
 
-	weaqlar
+someMobb12 / $add$ 'nnccncnnccnnccc'-someMobb12 someMobb12| teller, report;
 
-	someMobb12 / fgre 'ncnncccnncccnncncnccnccnnccncccncnc'-someMobb12| no of yields, teller,
-		report code;
-		
-		someMobb12 / $add$ 'nnccncnnccnnccc'-someMobb12 someMobb12| no of yields, teller,
-			report code;
-		
-		someMobb12 / $crdn| no of yields, teller, report code, mob;
-		
-		someMobb12 / $get$ 1-someMobb12-1:5-someMobb12:someMobb12 [gWCI]| no of yields,
-			teller, report code, mob;
-		*| gWCI: get without cutting it out |*
+someMobb12 / $crdn| teller, report, mob;
 
-		someMobb12 someMobb23 / $idnt| no of yields, mob;
+someMobb12 / $get$ 1-someMobb12-1:5-someMobb12:someMobb12 [copy]| teller, report, mob;
 
-	==== ==== ==== ====
+someMobb12 someMobb23 / $idnt| teller, report, mob;
 
-	someMobb12 / clne| no of yields, mob;
+someMobb12 / clne| teller, report, mob;
 
-	lIns / name someName12;
-	*| someName12#1 |*
+==== ==== ==== ====	
+
+	inst / name someName12;
+	*| someName12!yeld!1 |*
 
 
 	.... some instruction ....;
@@ -47,34 +45,32 @@ m
 
 	*| This is some note we can use to do a lot of things. |*
 
-	==== ==== ==== ====
+==== ==== ==== ====
 
-	if$$ 'c'-someMobb12: .... x ....;
-	*| base |*
+cond 'c'-someMobb12: .... x ....;
+*| base |*
 	
+.... x ....;
+
+slct 'c'-someMobb12: {
+	'c'-someMobb12: .... x ....;
+	'c'-someMobb12: .... x ....;
+	'c'-someMobb12: .... x ....;
+	'c'-someMobb12: .... x ....;
+	rst: .... x ....;
+}
+
+vrbl: [
 	.... x ....;
+	.... x ....;
+	.... x ....;
+	.... x ....;
+	itrn;
+]: [
+	*| brak |*
+]
 
-	slct 'c'-someMobb12: {
-		'c'-someMobb12: .... x ....;
-		'c'-someMobb12: .... x ....;
-		'c'-someMobb12: .... x ....;
-		'c'-someMobb12: .... x ....;
-		lRsr: .... x ....;
-	}
-
-	eVrb: [
-		.... x ....;
-		.... x ....;
-		.... x ....;
-		.... x ....;
-	]: [
-		*| brak |*
-	]
-
-	itrn
-
-	rpat 'c'-someMobb12-endl: [
-		.... x ....;
-		*| brak |*
-	]
-
+rptv '1'-someMobb12-endl: [
+	.... x ....;
+	*| brak |*
+]
