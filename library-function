@@ -1,7 +1,17 @@
+fnct someFunc12 <1: typexxxx/typeyyyy, 2-5: *; 6-?: *> <1: typexxxxx/typeyyyyy, 2-5: *; 6-?: *> [
+	*| Number of seeds as first seed. |*
+	*| Number of yelds as third yeld. |*
+	fnct*seed*1;
+	fnct*yeld*12*fgrn;
+	fnct*yeld*12*type;
+]
+
 type someType12 wqlr {
 	tnct someFunc12 <1: typexxxx/typeyyyy, 2-5: *; 6-?: *> <1: typex/typey, 2-5: *; 6-?: *> [
 		*| Number of seeds as first seed. |*
 		*| Number of yelds as third yeld. |*
-		@!seed!1;
-		@!yeld!12!fgrn;
-		@!yeld!12!type;
+		tnct*seed*1;
+		tnct*yeld*12*fgrn;
+		tnct*yeld*12*type;
+	]
+]

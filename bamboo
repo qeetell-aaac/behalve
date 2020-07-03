@@ -6,25 +6,25 @@ vqlr: veaqlar
 "wqlr: :cnnccccncnccncncncncnccn" + "cnncnncncncnncncc"
 "vqlr: :hello world!"
 
-someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
+mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 ==== ==== ==== ====
 
-	someMobb12 [6156744386574458356846954365259-last] *| wqlr:figure|mobb |*
+	mobb someMobb12 [615674438657445836846954365259-last] *| wqlr:figure|mobb |*
 
 	"vqWq: :hello world!"
 
-	someMobb12 someMobb23 / idnt| teller, report, mobb;
+	mobb someMobb12 someMobb23 / idnt| teller, report, mobb;
 
-	someMobb12 / crdn| teller, report, mobb;
+	mobb someMobb12 / crdn| teller, report, mobb;
 
 ==== ==== ==== ====
 
-someMobb12 / appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
+mobb someMobb12 / appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
 
-someMobb12 / prvd [1-last] *| wqlr:figure|mobb |* [copy]| teller, report, mobb;
+mobb someMobb12 / prvd [1-last] *| wqlr:figure|mobb |* [copy]| teller, report, mobb;
 
-someMobb12 / clne| teller, report, mobb;
+mobb someMobb12 / clne| teller, report, mobb;
 
 #### 1: This should be some algorithm step. #
 .... some instruction ....
@@ -34,15 +34,18 @@ someMobb12 / clne| teller, report, mobb;
 #### 2 #
 #### 1 #
 
-someMobb12 / exst| teller, report, mob;
+mobb someMobb12 / prss| teller, report;
 
-someMobb12 / prss| teller, report;
+mobb someMobb12 / exst| teller, report, mob;
 
-==== ==== ==== ====	
+==== ==== ==== ====
+
+	*| This is some note we can use to do a lot of things. |*
 
 	inst / name someName12;
-	*| someName12!yeld!1 |*
-
+	*| someName12*yeld*1 |*
+	*| someName12*yeld*1*fgrn |*
+	*| someName12*yeld*1*type |*
 
 	.... some instruction ....;
 	[
@@ -51,8 +54,6 @@ someMobb12 / prss| teller, report;
 
 **	<bBfr>: .... x ....;
 **	@someBbfrMob
-
-	*| This is some note we can use to do a lot of things. |*
 
 ==== ==== ==== ====
 
@@ -66,7 +67,7 @@ slct 'c'-someMobb12: {
 	'c'-someMobb12: .... x ....;
 	'c'-someMobb12: .... x ....;
 	'c'-someMobb12: .... x ....;
-	rst: .... x ....;
+	rsrt: .... x ....;
 }
 
 vrbl: [
