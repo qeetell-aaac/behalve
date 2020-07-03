@@ -57,16 +57,16 @@ mobb someMobb12 / exst| teller, report, mob;
 
 ==== ==== ==== ====
 
-cond 'c'-someMobb12: .... x ....;
+cond wqlr:figure|mobb: .... x ....;
 *| base |*
 	
 .... x ....;
 
-slct 'c'-someMobb12: {
-	'c'-someMobb12: .... x ....;
-	'c'-someMobb12: .... x ....;
-	'c'-someMobb12: .... x ....;
-	'c'-someMobb12: .... x ....;
+slct wqlr:figure|mobb: {
+	wqlr:figure|mobb: .... x ....;
+	wqlr:figure|mobb: .... x ....;
+	wqlr:figure|mobb: .... x ....;
+	wqlr:figure|mobb: .... x ....;
 	rsrt: .... x ....;
 }
 
@@ -75,12 +75,15 @@ vrbl: [
 	.... x ....;
 	.... x ....;
 	.... x ....;
-	itrn;
+
+	*| brak |*
+	itrn
 ]: [
 	*| brak |*
 ]
 
-rptv '1'-someMobb12-endl: [
+rptv wqlr:figure|mobb: [
 	.... x ....;
 	*| brak |*
+	itrn
 ]
