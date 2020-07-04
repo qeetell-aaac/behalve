@@ -1,10 +1,8 @@
 fnct someFunc12 <1: typeXxxx/typeYyyy, 2-5: *; 6-!: *> <1: typeXxxxx/typeYyyyy, 2-5: *; 6-!: *> [
-	*| Number of seeds as first seed. |*
-	*| Number of yelds as third yeld. |*
-
 	mobb someMobb12 / yeld;
 
 	*|
+		fnct*seed*crdn
 		fnct*seed*10
 		fnct*yeld*12*fgrn
 		fnct*yeld*12*type
@@ -17,4 +15,4 @@ type someType12 wqlr {
 	tnct someFunc12 <1: typeXxxx/typeYyy, 2-5: *; 6-?: *> <1: typeX/typeY, 2-5: *; 6-?: *> []
 ]
 
-mobb someFunc12 > someFunc: seed1 seed2 seed3 seed4 seed5 seed6;
+mobb someMobb12 > someFunc12: seed1 seed2 seed3 seed4 seed5 seed6;
