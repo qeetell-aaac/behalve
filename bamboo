@@ -6,7 +6,7 @@ vqlr: veaqlar
 "wqlr: :cnnccccncnccncncncncnccn" + "cnncnncncncnncncc"
 "vqlr: :hello world!"
 
-mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
+someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 ==== ==== ==== ====
 
@@ -15,17 +15,17 @@ mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 **	"vqWq: :hello world!"
 
-	mobb someMobb12 someMobb23 / idnt| teller, report, mobb;
+	someMobb12 someMobb23 / idnt| teller, report, mobb;
 
-	mobb someMobb12 / crdn| teller, report, mobb;
+	someMobb12 / crdn| teller, report, mobb;
 
 ==== ==== ==== ====
 
-mobb someMobb12 / appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
+someMobb12 / appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
 
-mobb someMobb12 / prvd [1-last] *| number-wqlr:mobb |* [copy]| teller, report, mobb;
+someMobb12 / prvd [1-last] *| number-wqlr:mobb |* [copy]| teller, report, mobb;
 
-mobb someMobb12 / clne| teller, report, mobb;
+someMobb12 / clne| teller, report, mobb;
 
 #### 1: This should be some algorithm step. #
 .... some instruction ....
@@ -35,10 +35,10 @@ mobb someMobb12 / clne| teller, report, mobb;
 #### 2 #
 #### 1 #
 
-mobb someMobb12 / prss| teller, report;
+someMobb12 / prss| teller, report;
 *| except: itrn |*
 
-mobb someMobb12 / exst| teller, report, mob;
+someMobb12 / exst| teller, report, mob;
 
 ==== ==== ==== ====
 
