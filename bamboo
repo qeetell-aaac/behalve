@@ -1,4 +1,4 @@
-mobb / crte someMobb12 wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
+mobb / crte someMobb12 wqlr| teller, report;
 
 wqlr: weaqlar
 vqlr: veaqlar
@@ -16,7 +16,6 @@ mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 **	"vqWq: :hello world!"
 
 	mobb someMobb12 someMobb23 / idnt| teller, report, mobb;
-	*| except: itrn |*
 
 	mobb someMobb12 / crdn| teller, report, mobb;
 
@@ -37,7 +36,7 @@ mobb someMobb12 / clne| teller, report, mobb;
 #### 1 #
 
 mobb someMobb12 / prss| teller, report;
-*| pro mobb |*
+*| except: itrn |*
 
 mobb someMobb12 / exst| teller, report, mob;
 
