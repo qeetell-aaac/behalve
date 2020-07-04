@@ -72,6 +72,7 @@ mobb someMobb12 / exst| teller, report, mob;
 
 	] / cond wqlr:figure|mobb:
 *| base |*
+*| 'c' |*
 
 {
 	wqlr:figure|mobb: .... x ....;
@@ -98,6 +99,3 @@ mobb someMobb12 / exst| teller, report, mob;
 
 	] / rptv number-wqlr:mobb-endl;
 	*| 1-someMobb12-endl |*
-
-
-
