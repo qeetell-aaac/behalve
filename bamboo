@@ -10,9 +10,10 @@ mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 ==== ==== ==== ====
 
-	mobb someMobb12 [61567443865744583684695436559-last]; *| wqlr:figure|mobb |*
+	someMobb12 [61567443865744583684695436559-last]; *| number-wqlr:mobb |*
+	*| 1, 2, someMobb1, last |*
 
-	"vqWq: :hello world!"
+**	"vqWq: :hello world!"
 
 	mobb someMobb12 someMobb23 / idnt| teller, report, mobb;
 
@@ -22,7 +23,7 @@ mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 mobb someMobb12 / appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
 
-mobb someMobb12 / prvd [{1}-{last}] *| number-wqlr:mobb |* [copy]| teller, report, mobb;
+mobb someMobb12 / prvd [1-last] *| number-wqlr:mobb |* [copy]| teller, report, mobb;
 
 mobb someMobb12 / clne| teller, report, mobb;
 
@@ -43,9 +44,10 @@ mobb someMobb12 / exst| teller, report, mob;
 	*| This is some note we can use to do a lot of things. |*
 
 	inst / name someName12;
-	*| someName12.yeld.{1} |*
-	*| someName12.yeld.{1}.fgrn: wqlr |*
-	*| someName12.yeld.{1}.type: vqlr |*
+	*| someName12.yeld.1 |*
+	*| someName12.yeld.1.fgrn: wqlr |*
+	*| someName12.yeld.1.type: vqlr |*
+	*| someName12.yeld.someMobb12.type: vqlr |*
 	*| number-wqlr:mob |*
 
 	.... some instruction ....;
@@ -88,5 +90,4 @@ rptv number-wqlr:mobb-endl: [
 	*| brak |*
 	itrn
 ]
-*| {1}-{someMobb12}-{endl} |*
-
+*| 1-someMobb12-endl |*
