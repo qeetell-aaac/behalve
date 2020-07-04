@@ -16,6 +16,7 @@ mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 **	"vqWq: :hello world!"
 
 	mobb someMobb12 someMobb23 / idnt| teller, report, mobb;
+	*| raw mobb |*
 
 	mobb someMobb12 / crdn| teller, report, mobb;
 
@@ -36,6 +37,7 @@ mobb someMobb12 / clne| teller, report, mobb;
 #### 1 #
 
 mobb someMobb12 / prss| teller, report;
+*| pro mobb |*
 
 mobb someMobb12 / exst| teller, report, mob;
 
@@ -53,42 +55,49 @@ mobb someMobb12 / exst| teller, report, mob;
 
 	.... some instruction ....;
 	[
-		instruction set
+		.... some instruction ....;
+		.... some instruction ....;
+		.... some instruction ....;
+		.... some instruction ....;
 	]
 
-**	<bBfr>: .... x ....;
+**	bfre: .... x ....;
 **	@someBbfrMob
 
 ==== ==== ==== ====
 
-cond wqlr:figure|mobb: .... x ....;
+[
+	.... x ....;
+	.... x ....;
+
+	] / cond wqlr:figure|mobb:
 *| base |*
 
-.... x ....;
-
-slct wqlr:figure|mobb: {
+{
 	wqlr:figure|mobb: .... x ....;
 	wqlr:figure|mobb: .... x ....;
 	wqlr:figure|mobb: .... x ....;
 	wqlr:figure|mobb: .... x ....;
 	rsrt: .... x ....;
-}
+	
+	} / crtn wqlr:figure|mobb;
+*| id |*
 
-vrbl: [
-	.... x ....;
-	.... x ....;
-	.... x ....;
-	.... x ....;
-
+[
 	*| brak |*
 	itrn
-]: [
-	*| brak |*
-]
 
-rptv number-wqlr:mobb-endl: [
+	] / vrbl [
+		.... x ....;
+	];
+
+[
 	.... x ....;
 	*| brak |*
 	itrn
-]
-*| 1-someMobb12-endl |*
+
+	] / rptv number-wqlr:mobb-endl;
+	*| 1-someMobb12-endl |*
+
+
+
