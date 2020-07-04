@@ -16,7 +16,7 @@ mobb someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 **	"vqWq: :hello world!"
 
 	mobb someMobb12 someMobb23 / idnt| teller, report, mobb;
-	*| raw mobb |*
+	*| except: itrn |*
 
 	mobb someMobb12 / crdn| teller, report, mobb;
 
