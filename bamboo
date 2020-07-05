@@ -1,31 +1,31 @@
-mobb / crte someMobb12 wqlr| teller, report;
+someMobb12/ crte wqlr| teller, report;
 
 wqlr: weaqlar
 vqlr: veaqlar
 
-"wqlr: :cnnccccncnccncncncncnccn" + "cnncnncncncnncncc"
-"vqlr: :hello world!"
+"ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncncc"
+vqlr"hello world!"
 
-someMobb12 / fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
+someMobb12/ fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 ==== ==== ==== ====
 
-	someMobb12 [61567443865744583684695436559-last]; *| number-wqlr:mobb |*
+	someMobb12 [6567443865744583684695436559-last]; *| number-wqlr:mobb |*
 	*| 1, 2, someMobb1, last |*
 
 **	"vqWq: :hello world!"
 
-	someMobb12 someMobb23 / idnt| teller, report, mobb;
+	someMobb12 someMobb23/ idnt| teller, report, mobb;
 
-	someMobb12 / crdn| teller, report, mobb;
+	someMobb12/ crdn| teller, report, mobb;
 
 ==== ==== ==== ====
 
-someMobb12 / appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
+someMobb12/ appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
 
-someMobb12 / prvd [1-last] *| number-wqlr:mobb |* [copy]| teller, report, mobb;
+someMobb12/ elmn [1-last] *| number-wqlr:mobb |* [copy]| teller, report, mobb;
 
-someMobb12 / clne| teller, report, mobb;
+someMobb12/ clne| teller, report, mobb;
 
 #### 1: This should be some algorithm step. #
 .... some instruction ....
@@ -35,16 +35,16 @@ someMobb12 / clne| teller, report, mobb;
 #### 2 #
 #### 1 #
 
-someMobb12 / prss| teller, report;
+someMobb12/ prss| teller, report;
 *| except: itrn |*
 
-someMobb12 / exst| teller, report, mob;
+someMobb12/ exst| teller, report, mob;
 
 ==== ==== ==== ====
 
 	*| This is some note we can use to do a lot of things. |*
 
-	inst / name someName12;
+	inst/ name someName12;
 	*| someName12.yeld.crdn |*
 	*| someName12.yeld.1 |*
 	*| someName12.yeld.1.fgrn: wqlr |*
@@ -69,9 +69,9 @@ someMobb12 / exst| teller, report, mob;
 	.... x ....;
 	.... x ....;
 
-	] / cond wqlr:figure|mobb:
+	]/ cond wqlr:figure|mobb:
 *| base |*
-*| 'c' |*
+*| Must be 'c', to get activated. |*
 
 {
 	wqlr:figure|mobb: .... x ....;
@@ -80,14 +80,14 @@ someMobb12 / exst| teller, report, mob;
 	wqlr:figure|mobb: .... x ....;
 	rsrt: .... x ....;
 	
-	} / crtn wqlr:figure|mobb;
+	}/ slct wqlr:figure|mobb;
 *| id |*
 
 [
 	*| brak |*
 	itrn
 
-	] / vrbl [
+	]/ vrbl [
 		.... x ....;
 	];
 
@@ -96,5 +96,5 @@ someMobb12 / exst| teller, report, mob;
 	*| brak |*
 	itrn
 
-	] / rptv number-wqlr:mobb-endl;
+	]/ rptv number-wqlr:mobb-endl;
 	*| 1-someMobb12-endl |*
