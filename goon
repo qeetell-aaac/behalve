@@ -1,12 +1,10 @@
-someMobb12 crte| teller, report;
-
-someMobb12 fgrn wqlr| teller, report; 
+mobb someMobb12 wqlr;
 
 wqlr: weaqlar
 vqlr: veaqlar
 
 "ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncncc"
-vqlr"hello world!"
+vqlr"hello world!" + "I am here."
 
 someMobb12 fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
