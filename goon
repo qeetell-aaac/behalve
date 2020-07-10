@@ -1,17 +1,19 @@
 mobb someMobb12 wqlr;
 
+someMobb12 [6567443865744583684695436559-last]; *| number-wqlr:mobb |*
+*| 1, 2, someMobb1, last |*
+
 wqlr: weaqlar
 vqlr: veaqlar
 
 "ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncncc"
 vqlr"hello world!" + "I am here."
 
-someMobb12 fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
+someMobb12 figo wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 ==== ==== ==== ====
 
-	someMobb12 [6567443865744583684695436559-last]; *| number-wqlr:mobb |*
-	*| 1, 2, someMobb1, last |*
+	
 
 **	"vqWq: :hello world!"
 
@@ -23,9 +25,11 @@ someMobb12 fgre wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
 
 someMobb12 appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
 
-someMobb12 elmn [1-last] *| number-wqlr:mobb |* [copy]| teller, report, mobb;
+someMobb12 ftch| teller, report, mobb;
 
 someMobb12 clne| teller, report, mobb;
+
+someMobb12 erse| teller, report;
 
 #### 1: This should be some algorithm step. #
 .... some instruction ....
