@@ -1,105 +1,103 @@
 mobb someMobb12 wqlr;
 
-someMobb12 [6567443865744583684695436559-last]; *| number-wqlr:mobb |*
-*| 1, 2, someMobb1, last |*
-
 wqlr: weaqlar
 vqlr: veaqlar
 
-"ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncncc"
+"ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncnccncncncncncc"
 vqlr"hello world!" + "I am here."
 
-someMobb12 figo wqlr:figure|mobb-vqlr:figure|mobb-*:mobb| teller, report;
+someMobb12 insr wqlr:figure|mobb-vqlr:figure|mobb-*:mobb number-wqlr:mob;
+
+	someMobb12 [x-x] *| 1, 2, 0, someMobb12 |*
+
+	mobb/fig[o] ftch| mobb;
+
+	inst name someName12;
+
+	*| This is some note we can use to do a lot of things. |*
+	
+	*| meta yield |*
+	*| someName12.tllr: wqlr |*
+	*| someName12.rprt: vqlr |*
+	*| someName12.crdn: wqlr |*	
+
+	*| instruction yield |*
+
+	*| someName12.1 |* *| number-wqlr:mob |*
+	*| someName12.1.fgrn: wqlr |*
+	*| someName12.1.type: vqlr |*
+	*| someName12.someMobb12.fgrn: wqlr |*
+
+	mobb/fig[o] clne| mobb;
 
 ==== ==== ==== ====
-
-	
 
 **	"vqWq: :hello world!"
 
-	someMobb12 someMobb23/ idnt| teller, report, mobb;
+	mobb/fig[o] mobb/fig[o] idnt|mobb;
 
-	someMobb12 crdn| teller, report, mobb;
-
-==== ==== ==== ====
-
-someMobb12 appn wqlr:figure|mobb-vqlr:figure|mobb| teller, report;
-
-someMobb12 ftch| teller, report, mobb;
-
-someMobb12 clne| teller, report, mobb;
-
-someMobb12 erse| teller, report;
-
-#### 1: This should be some algorithm step. #
-.... some instruction ....
-
-#### 2: This should be some algorithm step. #
-.... some instruction ....
-#### 2 #
-#### 1 #
-
-someMobb12 prss| teller, report;
-*| except: itrn |*
-
-someMobb12 exst| teller, report, mob;
+	someMobb12 crdn|mobb;
 
 ==== ==== ==== ====
 
-	*| This is some note we can use to do a lot of things. |*
+mobb/fig[o] erse;
 
-	inst name someName12;
-	*| someName12.yeld.crdn |*
-	*| someName12.yeld.1 |*
-	*| someName12.yeld.1.fgrn: wqlr |*
-	*| someName12.yeld.1.type: vqlr |*
-	*| someName12.yeld.someMobb12.type: vqlr |*
-	*| number-wqlr:mob |*
+**	#### 1: This should be some algorithm step. #
+	.... some instruction ....
 
-	.... some instruction ....;
+	#### 2: This should be some algorithm step. #
+	.... some instruction ....
+	#### 2 #
+	#### 1 #
+
+==== ==== ==== ====
+
+		[
+			.... some instruction ....;
+			.... some instruction ....;
+			.... some instruction ....;
+			.... some instruction ....;
+		]
+
+**		bfre: .... x ....;
+**		@someBbfrMob
+
+
 	[
-		.... some instruction ....;
-		.... some instruction ....;
-		.... some instruction ....;
-		.... some instruction ....;
-	]
-
-**	bfre: .... x ....;
-**	@someBbfrMob
-
-==== ==== ==== ====
-
-[
-	.... x ....;
-	.... x ....;
-
-	] cond wqlr:figure|mobb:
-*| base |*
-*| Must be 'c', to get activated. |*
-
-{
-	wqlr:figure|mobb: .... x ....;
-	wqlr:figure|mobb: .... x ....;
-	wqlr:figure|mobb: .... x ....;
-	wqlr:figure|mobb: .... x ....;
-	rsrt: .... x ....;
-	
-	} slct wqlr:figure|mobb;
-*| id |*
-
-[
-	.... x ....;
-	*| brak |*
-	itrn
-
-	] vrbl [
 		.... x ....;
-	];
+		.... x ....;
 
-[
-	.... x ....;
-	*| brak |*
-	itrn
+		] cond wqlr:figure|mobb:
+		*| base |*
+		*| Must be 'c', to get activated. |*
 
-	] rptv number-wqlr:mobb-endl;
-	*| 1-someMobb12-endl |*
+	{
+		wqlr:figure|mobb: .... x ....;
+		wqlr:figure|mobb: .... x ....;
+		wqlr:figure|mobb: .... x ....;
+		wqlr:figure|mobb: .... x ....;
+		rsrt: .... x ....;?
+	
+		} slct wqlr:figure|mobb;
+		*| id |*
+
+	[
+		.... x ....;
+		*| brak |*
+		itrn
+
+		someMobb12 prss; *| except: itrn |*
+
+		someMobb12 exst| mob;
+
+		] vrbl [
+			.... x ....;
+		];
+
+	[
+		.... x ....;
+		*| brak |*
+		itrn
+
+		] rptv number-wqlr:mobb-endl;
+		*| 1-someMobb12-0 |*
