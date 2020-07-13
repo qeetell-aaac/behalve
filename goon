@@ -48,10 +48,12 @@ mobb/fig[o] erse;
 	#### 2: This should be some algorithm step. #
 	.... some instruction ....
 	#### 2 #
-	#### 1 #
+**	#### 1 #
 
 ==== ==== ==== ====
 
+	instruction/set
+		........ some instruction ........;
 		[
 			.... some instruction ....;
 			.... some instruction ....;
@@ -63,11 +65,7 @@ mobb/fig[o] erse;
 **		@someBbfrMob
 
 
-	[
-		.... x ....;
-		.... x ....;
-
-		] cond wqlr:figure|mobb:
+	instruction/set< cond wqlr:figure|mobb;
 		*| base |*
 		*| Must be 'c', to get activated. |*
 
@@ -81,23 +79,11 @@ mobb/fig[o] erse;
 		} slct wqlr:figure|mobb;
 		*| id |*
 
-	[
-		.... x ....;
+	instruction/set< vrbl instruction/set;
 		*| brak |*
+		*| iteration seed |*
 		itrn
+		someMobb12 prss; *| except: seed & yield |*
+	someMobb12 exst| mob;
 
-		someMobb12 prss; *| except: itrn |*
-
-		someMobb12 exst| mob;
-
-		] vrbl [
-			.... x ....;
-		];
-
-	[
-		.... x ....;
-		*| brak |*
-		itrn
-
-		] rptv number-wqlr:mobb-endl;
-		*| 1-someMobb12-0 |*
+	instruction/set> rptv number-wqlr:mobb;
