@@ -9,6 +9,7 @@ vqlr"hello world!" + "I am here."
 someMobb12 insr wqlr:figure|mobb-vqlr:figure|mobb-*:mobb number-wqlr:mob;
 
 	someMobb12 [x-x] *| 1, 2, 0, someMobb12 |*
+	*| 8 spaces |*
 
 	mobb/fig[o] ftch| mobb;
 
@@ -42,13 +43,13 @@ someMobb12 insr wqlr:figure|mobb-vqlr:figure|mobb-*:mobb number-wqlr:mob;
 
 mobb/fig[o] erse;
 
-**	#### 1: This should be some algorithm step. #
+	#### 1: This should be some algorithm step. #
 	.... some instruction ....
 
 	#### 2: This should be some algorithm step. #
 	.... some instruction ....
 	#### 2 #
-**	#### 1 #
+	#### 1 #
 
 ==== ==== ==== ====
 
