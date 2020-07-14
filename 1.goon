@@ -1,17 +1,17 @@
-mobb someMobb12 wqlr;
+mobb someMobb12;
 
 wqlr: weaqlar
 vqlr: veaqlar
 
 "ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncnccncncncncncc"
-vqlr"hello world!" + "I am here."
+*	vqlr"hello world!" + "I am here."
 
-someMobb12 insr wqlr:figure|mobb-vqlr:figure|mobb-*:mobb number-wqlr:mob;
+someMobb12 insr figi-mobb number-mobb;
 
-	someMobb12 [x-x] *| 1, 2, 0, someMobb12 |*
+	someMobb12 [x-x] *| 1, 2, 0, someMobb123456 |* *| figi |*
 	*| 8 spaces |*
 
-	mobb/fig[o] ftch| mobb;
+	figi-mobb ftch| mobb;
 
 	inst name someName12;
 
@@ -20,28 +20,28 @@ someMobb12 insr wqlr:figure|mobb-vqlr:figure|mobb-*:mobb number-wqlr:mob;
 	*| meta yield |*
 	*| someName12.tllr: wqlr |*
 	*| someName12.rprt: vqlr |*
-	*| someName12.crdn: wqlr |*	
+	*| someName12.qntt: wqlr |*	
 
 	*| instruction yield |*
 
-	*| someName12.1 |* *| number-wqlr:mob |*
+	*| someName12.1 |* *| number-mobb |*
 	*| someName12.1.fgrn: wqlr |*
 	*| someName12.1.type: vqlr |*
 	*| someName12.someMobb12.fgrn: wqlr |*
 
-	mobb/fig[o] clne| mobb;
+	figi-mobb clne| mobb;
 
 ==== ==== ==== ====
 
 **	"vqWq: :hello world!"
 
-	mobb/fig[o] mobb/fig[o] idnt|mobb;
+	figi-mobb figi-mobb idnt|mobb;
 
 	someMobb12 crdn|mobb;
 
 ==== ==== ==== ====
 
-mobb/fig[o] erse;
+figi-mobb erse;
 
 	#### 1: This should be some algorithm step. #
 	.... some instruction ....
@@ -87,4 +87,4 @@ mobb/fig[o] erse;
 		someMobb12 prss; *| except: seed & yield |*
 	someMobb12 exst| mob;
 
-	instruction/set> rptv number-wqlr:mobb;
+	instruction/set< rptv number-mobbb;
