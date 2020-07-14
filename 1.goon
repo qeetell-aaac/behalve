@@ -43,14 +43,6 @@ someMobb12 insr figi-mobb number-mobb;
 
 figi-mobb erse;
 
-	#### 1: This should be some algorithm step. #
-	.... some instruction ....
-
-	#### 2: This should be some algorithm step. #
-	.... some instruction ....
-	#### 2 #
-	#### 1 #
-
 ==== ==== ==== ====
 
 	instruction/set
@@ -79,12 +71,3 @@ figi-mobb erse;
 	
 		} slct wqlr:figure|mobb;
 		*| id |*
-
-	instruction/set< vrbl instruction/set;
-		*| brak |*
-		*| iteration seed |*
-		itrn
-		someMobb12 prss; *| except: seed & yield |*
-	someMobb12 exst| mob;
-
-	instruction/set< rptv number-mobbb;
