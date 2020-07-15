@@ -40,41 +40,41 @@ mobb-mFgi erse
 
 ==== ==== ==== ====
 
-	<
+	xxxx
 		.. some instruction ..
 		.. some instruction ..
 		.. some instruction ..
 		.. some instruction ..
-	> only x idnt y or a nIdn z and b idnt c
+	xxxx only x idnt y or [a idnt z and b nIdn c]
 
-	[
-		<
-			.. some instruction ..
-			.. some instruction ..
-		> only ....
-		<
-			.. some instruction ..
-			.. some instruction ..
-		> only ....
-		<
-			.. some instruction ..
-			.. some instruction ..
-		> only ....
-	] slct
+	yyyy
+	xxxx
+		.. some instruction ..
+		.. some instruction ..
+	xxxx only ....
+	xxxx
+		.. some instruction ..
+		.. some instruction ..
+	xxxx only ....
+	xxxx
+		.. some instruction ..
+		.. some instruction ..
+	xxxx only ....
+	yyyy slct
 
-	{
+	zzzz
 		.. some instruction ..
 		.. some instruction ..
 		.. some instruction ..
 		.. some instruction ..
-	} rpat 16
+	zzzz rpat 16
 
-	{
+	zzzz
 		.. some instruction ..
 		.. some instruction ..
 		.. some instruction ..
 		.. some instruction ..
-	} rpat {
+	zzzz rpat zzzz
 		.. some instruction ..
 		.. some instruction ..
-	}
+	zzzz
