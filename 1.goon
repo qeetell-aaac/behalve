@@ -1,21 +1,17 @@
-mobb someMobb12;
-
 wqlr: weaqlar
-vqlr: veaqlar
 
 "ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncnccncncncncncc"
-*	vqlr"hello world!" + "I am here."
 
-someMobb12 insr figi-mobb number-mobb;
+mobb someMobb12
+
+someMobb12 insr figi-mobb number-mobb
 
 	someMobb12 [x-x] *| 1, 2, 0, someMobb123456 |* *| figi |*
 	*| 8 spaces |*
 
-	figi-mobb ftch| mobb;
+	figi-mobb ftch| mobb
 
-	inst name someName12;
-
-	*| This is some note we can use to do a lot of things. |*
+	inst name someName12
 	
 	*| meta yield |*
 	*| someName12.tllr: wqlr |*
@@ -29,45 +25,17 @@ someMobb12 insr figi-mobb number-mobb;
 	*| someName12.1.type: vqlr |*
 	*| someName12.someMobb12.fgrn: wqlr |*
 
-	figi-mobb clne| mobb;
+	figi-mobb clne| mobb
 
 ==== ==== ==== ====
 
-**	"vqWq: :hello world!"
+	figi-mobb figi-mobb idnt|mobb
 
-	figi-mobb figi-mobb idnt|mobb;
-
-	someMobb12 crdn|mobb;
+	someMobb12 crdn|mobb
 
 ==== ==== ==== ====
 
-figi-mobb erse;
+figi-mobb erse
 
 ==== ==== ==== ====
 
-	instruction/set
-		........ some instruction ........;
-		[
-			.... some instruction ....;
-			.... some instruction ....;
-			.... some instruction ....;
-			.... some instruction ....;
-		]
-
-**		bfre: .... x ....;
-**		@someBbfrMob
-
-
-	instruction/set< cond wqlr:figure|mobb;
-		*| base |*
-		*| Must be 'c', to get activated. |*
-
-	{
-		wqlr:figure|mobb: .... x ....;
-		wqlr:figure|mobb: .... x ....;
-		wqlr:figure|mobb: .... x ....;
-		wqlr:figure|mobb: .... x ....;
-		rsrt: .... x ....;?
-	
-		} slct wqlr:figure|mobb;
-		*| id |*
