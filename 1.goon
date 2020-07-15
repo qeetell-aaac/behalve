@@ -9,8 +9,10 @@ mobb someMobb12 wqlr
 
 someMobb12 insr figi-mobb-mFgi number-mobb
 
-	someMobb12 <x-x> *| 1, 2, 0, someMobb123456 |* *| mFgi |*
+	someMobb12 <x-x> *| 1, 1:r, someMobb123456:r |* *| mFgi |*
 	*| 8 spaces |*
+
+	someMobb1 crdn| mobb
 
 	mobb-mFgi ftch| mobb
 
@@ -33,8 +35,6 @@ someMobb12 insr figi-mobb-mFgi number-mobb
 
 **	figi-mobb-mFgi figi-mobb-mFgi idnt|mobb
 
-**	someMobb12 crdn|mobb
-
 ==== ==== ==== ====
 
 mobb-mFgi erse
@@ -42,45 +42,54 @@ mobb-mFgi erse
 ==== ==== ==== ====
 
 	xxxx
-		.. some instruction ..
-		.. some instruction ..
-		.. some instruction ..
-		.. some instruction ..
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
 	xxxx only x idnt y or [a idnt b and c nIdn d]
 
 	yyyy
 	xxxx
-		.. some instruction ..
-		.. some instruction ..
+		-- some instruction --
+		-- some instruction --
 	xxxx only ....
 	xxxx
-		.. some instruction ..
-		.. some instruction ..
+		-- some instruction --
+		-- some instruction --
 	xxxx only ....
 	xxxx
-		.. some instruction ..
-		.. some instruction ..
+		-- some instruction --
+		-- some instruction --
 	xxxx only ....
 	yyyy slct
 
 	xxxx
-		.. some instruction ..
-		.. some instruction ..
-		.. some instruction ..
-		.. some instruction ..
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
 		
-		someMob12 prss
+**		someMob12 prss
 **		someMob12 exst
 	xxxx rpat 16
 
+**	xxxx
+**		-- some instruction --
+**		-- some instruction --
+**	xxxx prpr
 	xxxx
-		.. some instruction ..
-		.. some instruction ..
-		.. some instruction ..
-		.. some instruction ..
-	xxxx then xxxx
-		.. some instruction ..
-		.. some instruction ..
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
+	xxxx exct
+	xxxx
+		-- some instruction --
+		-- some instruction --
 
 		prcd
-	xxxx
+	xxxx dtrm
+**	xxxx
+**		-- some instruction --
+**		-- some instruction --
+**	xxxx prpr
