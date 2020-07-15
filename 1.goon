@@ -22,9 +22,9 @@ someMobb12 insr figi-mobb-mFgi number-mobb
 
 	*| instruction yield |*
 	*| someName12.1 |* *| number-mobb |*
-	*| someName12.1.fgrn: wqlr |*
-	*| someName12.1.type: vqlr |*
-	*| someName12.someMobb12.fgrn: wqlr |*
+		*| someName12.1.fgrn: wqlr |*
+		*| someName12.1.type: vqlr |*
+		*| someName12.someMobb12.fgrn: wqlr |*
 
 	mobb-mFgi clne| mobb
 
