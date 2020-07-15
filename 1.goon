@@ -1,15 +1,17 @@
-wqlr: weaqlar
+wqlr: weaqlar / vqlr: veaqlar
 
-"ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn" + "cnncnncncncnncnccncncncncncc"
+'ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn' + 'cnncnncncncnncnccncncncncncc'
+"This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ!" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ!!"
+	|" and ||
 
-mobb someMobb12
+mobb someMobb12 wqlr
 
-someMobb12 insr figi-mobb number-mobb
+someMobb12 insr figi-mobb-mFgi number-mobb
 
-	someMobb12 [x-x] *| 1, 2, 0, someMobb123456 |* *| figi |*
+	someMobb12 <x-x> *| 1, 2, 0, someMobb123456 |* *| mFgi |*
 	*| 8 spaces |*
 
-	figi-mobb ftch| mobb
+	mobb-mFgi ftch| mobb
 
 	inst name someName12
 	
@@ -19,23 +21,60 @@ someMobb12 insr figi-mobb number-mobb
 	*| someName12.qntt: wqlr |*	
 
 	*| instruction yield |*
-
 	*| someName12.1 |* *| number-mobb |*
 	*| someName12.1.fgrn: wqlr |*
 	*| someName12.1.type: vqlr |*
 	*| someName12.someMobb12.fgrn: wqlr |*
 
-	figi-mobb clne| mobb
+	mobb-mFgi clne| mobb
 
 ==== ==== ==== ====
 
-	figi-mobb figi-mobb idnt|mobb
+	figi-mobb-mFgi figi-mobb-mFgi idnt|mobb
 
 	someMobb12 crdn|mobb
 
 ==== ==== ==== ====
 
-figi-mobb erse
+mobb-mFgi erse
 
 ==== ==== ==== ====
 
+	<
+		.. some instruction ..
+		.. some instruction ..
+		.. some instruction ..
+		.. some instruction ..
+	> only x idnt y and a nIdn z or b idnt c
+
+	[
+		<
+			.. some instruction ..
+			.. some instruction ..
+		> only ....
+		<
+			.. some instruction ..
+			.. some instruction ..
+		> only ....
+		<
+			.. some instruction ..
+			.. some instruction ..
+		> only ....
+	] slct
+
+	{
+		.. some instruction ..
+		.. some instruction ..
+		.. some instruction ..
+		.. some instruction ..
+	} rpat 16
+
+	{
+		.. some instruction ..
+		.. some instruction ..
+		.. some instruction ..
+		.. some instruction ..
+	} rpat {
+		.. some instruction ..
+		.. some instruction ..
+	}
