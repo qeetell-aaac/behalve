@@ -1,84 +1,85 @@
-wqlr: weaqlar
-vqlr: veaqlar
+wq: weaqlar
+vq: veaqlar
 
-'ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn' + 'cnncnncncncnncnccncncncncncc'
-** "This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ!" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ!!"
-**	|" and ||
+!ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn! + !cnncnncncncnncnccncncncncncc!
+|This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ!| + |ABCDEFGHIJKLMNOPQRSTUVWXYZ!!|
+	"| and ""
 
-mobb someMobb12 wqlr
+mb someMobb12 wq
 
-someMobb12 insr figi-mobb-pMob number-mobb
+someMobb12 mk figi-mobb-pMob number-mobb
+	*| 1, 1:rt, 0, someMobb123456:rt |*
 
-	someMobb12 [x-x] *| 1, 1:r, someMobb123456:r |* *| pMob |*
+	*| pMob >> someMobb12 #x-x# |*
 	*| 8 spaces |*
 
-	someMobb1 crdn| mobb
+	someMobb1 cr| mobb
 
-	mobb-pMob ftch| mobb
+	mobb-pMob ft| mobb
 
-	inst name someName12
+	ls nm someName12
 	
 	*| meta yield |*
-**	*| someName12.tllr: wqlr |*
-**	*| someName12.rprt: vqlr |*
-**	*| someName12.qntt: wqlr |*	
+**	*| someName12$tl: wq |*
+**	*| someName12$rp: vq |*
+**	*| someName12$qn: wq |*
 
 	*| instruction yield |*
-	*| someName12.1 |* *| number-mobb |*
-		*| someName12.1.fgrn: wqlr |*
-		*| someName12.1.type: vqlr |*
-**		*| someName12.someMobb12.fgrn: wqlr |*
+	*| someName12$1 |* *| number-mobb |*
+		*| someName12$1$fg: wq |*
+		*| someName12$1$ty: vq |*
+**		*| someName12$someMobb12$fg: wq |*
 
-	mobb-pMob clne| mobb
-
-==== ==== ==== ====
-
-**	figi-mobb-pMob figi-mobb-pMob idnt|mobb
+	mobb-pMob cl| mobb
 
 ==== ==== ==== ====
 
-mobb-pMob erse
+**	figi-mobb-pMob figi-mobb-pMob id|mobb
 
 ==== ==== ==== ====
 
-	x
-		-- some instruction --
-		-- some instruction --
-		-- some instruction --
-		-- some instruction --
-	x only x idnt y or [a idnt b and c nIdn d]
+mobb-pMob er
 
-	y
-	x
+==== ==== ==== ====
+
+	xx
 		-- some instruction --
 		-- some instruction --
-	x only ....
-	x
 		-- some instruction --
 		-- some instruction --
-	x only ....
-**	x
+	xx on x id y or (a id b an c nI d)
+
+	yy
+	xx
+		-- some instruction --
+		-- some instruction --
+	xx on ----
+	xx
+		-- some instruction --
+		-- some instruction --
+	xx on ----
+**	xx
 **		-- some instruction --
 **		-- some instruction --
-**	x othr
-	y slct
+**	xx ot
+	yy sl
 
-	x
+	xx
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	x rpat 16
+	xx rp 16
 
-	x
+	xx
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	x exct
-	x
+	xx ex
+	xx
 		-- some instruction --
 		-- some instruction --
 
-		prcd
-	x dtrm
+		pr
+	xx dt
