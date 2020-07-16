@@ -2,19 +2,19 @@ wqlr: weaqlar
 vqlr: veaqlar
 
 'ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn' + 'cnncnncncncnncnccncncncncncc'
-"This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ!" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ!!"
-	|" and ||
+** "This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ!" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ!!"
+**	|" and ||
 
 mobb someMobb12 wqlr
 
-someMobb12 insr figi-mobb-mFgi number-mobb
+someMobb12 insr figi-mobb-pMob number-mobb
 
-	someMobb12 <x-x> *| 1, 1:r, someMobb123456:r |* *| mFgi |*
+	someMobb12 [x-x] *| 1, 1:r, someMobb123456:r |* *| pMob |*
 	*| 8 spaces |*
 
 	someMobb1 crdn| mobb
 
-	mobb-mFgi ftch| mobb
+	mobb-pMob ftch| mobb
 
 	inst name someName12
 	
@@ -29,67 +29,56 @@ someMobb12 insr figi-mobb-mFgi number-mobb
 		*| someName12.1.type: vqlr |*
 **		*| someName12.someMobb12.fgrn: wqlr |*
 
-	mobb-mFgi clne| mobb
+	mobb-pMob clne| mobb
 
 ==== ==== ==== ====
 
-**	figi-mobb-mFgi figi-mobb-mFgi idnt|mobb
+**	figi-mobb-pMob figi-mobb-pMob idnt|mobb
 
 ==== ==== ==== ====
 
-mobb-mFgi erse
+mobb-pMob erse
 
 ==== ==== ==== ====
 
-	xxxx
+	x
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	xxxx only x idnt y or [a idnt b and c nIdn d]
+	x only x idnt y or [a idnt b and c nIdn d]
 
-	yyyy
-	xxxx
+	y
+	x
 		-- some instruction --
 		-- some instruction --
-	xxxx only ....
-	xxxx
+	x only ....
+	x
 		-- some instruction --
 		-- some instruction --
-	xxxx only ....
-	xxxx
-		-- some instruction --
-		-- some instruction --
-	xxxx only ....
-	yyyy slct
-
-	xxxx
-		-- some instruction --
-		-- some instruction --
-		-- some instruction --
-		-- some instruction --
-		
-**		someMob12 prss
-**		someMob12 exst
-	xxxx rpat 16
-
-**	xxxx
+	x only ....
+**	x
 **		-- some instruction --
 **		-- some instruction --
-**	xxxx prpr
-	xxxx
+**	x othr
+	y slct
+
+	x
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	xxxx exct
-	xxxx
+	x rpat 16
+
+	x
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
+		-- some instruction --
+	x exct
+	x
 		-- some instruction --
 		-- some instruction --
 
 		prcd
-	xxxx dtrm
-**	xxxx
-**		-- some instruction --
-**		-- some instruction --
-**	xxxx prpr
+	x dtrm
