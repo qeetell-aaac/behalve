@@ -19,8 +19,8 @@ th !someRaww12 *| raw and typed; 8 spaces |*
 !someThng12 mk [!someRaww23 {} !someOrdinal]/[!someTypd12]
 	*| {!someOrdinal12 !someOrdinal12} 0: next |*
 
-	*| These can only be applied to raw thing. |*
-	!someThng12 cl {}| rw
+	*| These can be applied to only raw thing. |*
+	!someRaww12 cl {}| rw
 	
 	!someRaww12 no {}| or
 		*| noreos |*
