@@ -5,22 +5,22 @@ cnncncncncncncnccncncncncnncncncncnncncncncnncncncncncn + cnncnncncncnncnccncncn
 This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUVWXYZ!!
 	"| and ""
 
-mb someMobb12 wq
+mb /someMobb12 wq
 
-someMobb12 mk figi-mobb-pMob number-mobb
-	*| 1, 1:rt!, 0, someMobb123456:rt! |*
+/someMobb12 mk figi-mobb-pMob number-mobb
+	*| 1, 1:r!, /someMobb12:rt 0 |*
 
-	*| pMob >> someMobb12 {x-x} |*
+	*| pMob >> /someMobb12 {x-x} |*
 	*| 8 spaces |*
 
-	someMobb1 cr| mobb
+	/someMobb1 cr| mobb
 
 	mobb-pMob ft| mobb
 
-	ls nm someName12
+	ls nm /someName12 *| name |*
 
 	*| instruction yield |*
-	*| someName12.1 |* *| number-mobb |*
+	*| /someName12.1 |* *| number-mobb |*
 
 	mobb-pMob cl| mobb
 
@@ -34,46 +34,46 @@ mobb-pMob er
 
 ==== ==== ==== ====
 
-	in
+	ww
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	in (x id y) or ([a id b] an [c nt d]) or (r id s) or (c id d) or (e id f) or (f id g) or
-		(g id h) or (i id j) or (k id l) or (l id m) or (n id o)
-	*| () and [] |*
+		ww (x id y) or ([a id b] an [c nt d]) or (r id s) or (c id d) or (e id f) or (f
+			id g) or (g id h) or (i id j) or (k id l) or (l id m) or (n id o)
+			*| () for ors and [] for ans |*
 
-	ol
-	in
+	xx
+	ww
 		-- some instruction --
 		-- some instruction --
-	in ----
-	in
+		ww ----
+	ww
 		-- some instruction --
 		-- some instruction --
-	in ----
-**	in
+		ww ----
+**	ww
 **		-- some instruction --
 **		-- some instruction --
-**	in ot
-	ol
+**		ww aa
+		xx
 
-	io
+	yy
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	io 16
+		yy 16
 
-	ip
+	zz
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	ip
-	ip
+		zz
+	zz
 		-- some instruction --
 		-- some instruction --
 
 		pr
-	ip
+		zz
