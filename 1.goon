@@ -10,7 +10,7 @@ mb someMobb12 wq
 someMobb12 mk figi-mobb-pMob number-mobb
 	*| 1, 1:rt, 0, someMobb123456:rt |*
 
-	*| pMob >> someMobb12 #x-x# |*
+	*| pMob >> someMobb12 {x-x} |*
 	*| 8 spaces |*
 
 	someMobb1 cr| mobb
@@ -20,15 +20,15 @@ someMobb12 mk figi-mobb-pMob number-mobb
 	ls nm someName12
 	
 	*| meta yield |*
-**	*| someName12$tl: wq |*
-**	*| someName12$rp: vq |*
-**	*| someName12$qn: wq |*
+**	*| someName12.tl: wq |*
+**	*| someName12.rp: vq |*
+**	*| someName12.qn: wq |*
 
 	*| instruction yield |*
-	*| someName12$1 |* *| number-mobb |*
-		*| someName12$1$fg: wq |*
-		*| someName12$1$ty: vq |*
-**		*| someName12$someMobb12$fg: wq |*
+	*| someName12.1 |* *| number-mobb |*
+		*| someName12.1.fg: wq |*
+		*| someName12.1.ty: vq |*
+**		*| someName12.someMobb12.fg: wq |*
 
 	mobb-pMob cl| mobb
 
@@ -42,44 +42,45 @@ mobb-pMob er
 
 ==== ==== ==== ====
 
-	xx
+	in
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	xx on x id y or (a id b an c nI d)
+	in on ((x id y) or {a id b an c nI d} or (r id s))
+	*| () |*
 
-	yy
-	xx
+	cl
+	in
 		-- some instruction --
 		-- some instruction --
-	xx on ----
-	xx
+	in on ----
+	in
 		-- some instruction --
 		-- some instruction --
-	xx on ----
-**	xx
+	in on ----
+**	in
 **		-- some instruction --
 **		-- some instruction --
-**	xx ot
-	yy sl
+**	in ot
+	cl sl
 
-	xx
+	in
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	xx rp 16
+	in rp 16
 
-	xx
+	in
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	xx ex
-	xx
+	in ex
+	in
 		-- some instruction --
 		-- some instruction --
 
 		pr
-	xx dt
+	in dt
