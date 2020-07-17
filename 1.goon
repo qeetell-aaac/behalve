@@ -1,14 +1,14 @@
 wq: weaqlar
 vq: veaqlar
 
-!ncnnncnccncncncncncncncncncncnnncnccccncnccncncncncnccn! + !cnncnncncncnncnccncncncncncc!
-|This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ!| + |ABCDEFGHIJKLMNOPQRSTUVWXYZ!!|
+cnncncncncncncnccncncncncnncncncncnncncncncnncncncncncn + cnncnncncncnncnccncncncncncc
+This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUVWXYZ!!
 	"| and ""
 
 mb someMobb12 wq
 
 someMobb12 mk figi-mobb-pMob number-mobb
-	*| 1, 1:rt, 0, someMobb123456:rt |*
+	*| 1, 1:rt!, 0, someMobb123456:rt! |*
 
 	*| pMob >> someMobb12 {x-x} |*
 	*| 8 spaces |*
@@ -18,17 +18,9 @@ someMobb12 mk figi-mobb-pMob number-mobb
 	mobb-pMob ft| mobb
 
 	ls nm someName12
-	
-	*| meta yield |*
-**	*| someName12.tl: wq |*
-**	*| someName12.rp: vq |*
-**	*| someName12.qn: wq |*
 
 	*| instruction yield |*
 	*| someName12.1 |* *| number-mobb |*
-		*| someName12.1.fg: wq |*
-		*| someName12.1.ty: vq |*
-**		*| someName12.someMobb12.fg: wq |*
 
 	mobb-pMob cl| mobb
 
@@ -47,40 +39,41 @@ mobb-pMob er
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	in on ((x id y) or {a id b an c nI d} or (r id s))
-	*| () |*
+	in (x id y) or ([a id b] an [c nt d]) or (r id s) or (c id d) or (e id f) or (f id g) or
+		(g id h) or (i id j) or (k id l) or (l id m) or (n id o)
+	*| () and [] |*
 
-	cl
+	ol
 	in
 		-- some instruction --
 		-- some instruction --
-	in on ----
+	in ----
 	in
 		-- some instruction --
 		-- some instruction --
-	in on ----
+	in ----
 **	in
 **		-- some instruction --
 **		-- some instruction --
 **	in ot
-	cl sl
+	ol
 
-	in
+	io
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	in rp 16
+	io 16
 
-	in
+	ip
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-	in ex
-	in
+	ip
+	ip
 		-- some instruction --
 		-- some instruction --
 
 		pr
-	in dt
+	ip
