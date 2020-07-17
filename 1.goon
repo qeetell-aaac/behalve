@@ -8,12 +8,12 @@ This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUV
 mb /someMobb12 wq
 
 /someMobb12 mk figi-mobb-pMob number-mobb
-	*| 1, 1:r!, /someMobb12:rt 0 |*
+	*| 1, 1*rt, /someMobb12*rt 0 |*
 
 	*| pMob >> /someMobb12 {x-x} |*
 	*| 8 spaces |*
 
-	/someMobb1 cr| mobb
+	/someMobb12 cr| mobb
 
 	mobb-pMob ft| mobb
 
@@ -34,36 +34,36 @@ mobb-pMob er
 
 ==== ==== ==== ====
 
-	ww
+	vv
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-		ww (x id y) or ([a id b] an [c nt d]) or (r id s) or (c id d) or (e id f) or (f
+		vv (x id y) or ([a id b] an [c nt d]) or (r id s) or (c id d) or (e id f) or (f
 			id g) or (g id h) or (i id j) or (k id l) or (l id m) or (n id o)
 			*| () for ors and [] for ans |*
 
-	xx
 	ww
+	vv
 		-- some instruction --
 		-- some instruction --
-		ww ----
-	ww
+		vv ----
+	vv
 		-- some instruction --
 		-- some instruction --
-		ww ----
-**	ww
+		vv ----
+**	vv
 **		-- some instruction --
 **		-- some instruction --
-**		ww aa
-		xx
+**		vv aa
+		ww
 
-	yy
+	xx
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
 		-- some instruction --
-		yy 16
+		xx 16
 
 	zz
 		-- some instruction --
@@ -77,3 +77,4 @@ mobb-pMob er
 
 		pr
 		zz
+
