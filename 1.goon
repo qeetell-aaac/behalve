@@ -5,32 +5,31 @@ cnncncncncncncnccncncncncnncncncncnncncncncnncncncncncn + cnncnncncncnncnccncncn
 This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUVWXYZ!!
 	"| and ""
 
-mb /someMobb12 wq
+th !someMobb12
 
-/someMobb12 mk figi-mobb-pMob number-mobb
-	*| 1, 1*rt, /someMobb12*rt 0 |*
+!someMobb12 lb od
 
-	*| pMob >> /someMobb12 {x-x} |*
-	*| 8 spaces |*
+!someMobb12 mk !someMobb23 {} !someOrdinal  *| {!someOrdinal !someOrdinal} 8 spaces |*
 
-	/someMobb12 cr| mobb
-
-	mobb-pMob ft| mobb
-
-	ls nm /someName12 *| name |*
-
+	!someMobb12 cr {}| thng
+		*| raw |*
+	
+	!someMobb12 ft {}| thng
+		*| raw |*
+		
+	ls nm !someName12 *| name |*
 	*| instruction yield |*
-	*| /someName12.1 |* *| number-mobb |*
+	*| !someName12.1 |*
 
-	mobb-pMob cl| mobb
-
-==== ==== ==== ====
-
-**	figi-mobb-pMob figi-mobb-pMob id|mobb
+	!someMobb12 cl {}| thng
 
 ==== ==== ==== ====
 
-mobb-pMob er
+**	figi-thng-pMob figi-thng-pMob id|thng
+
+==== ==== ==== ====
+
+thng er
 
 ==== ==== ==== ====
 
