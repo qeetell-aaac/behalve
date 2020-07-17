@@ -8,29 +8,33 @@ This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUV
 	"| and ""
 
 
-th !someThng12 *| raw and labeled |*
+th !someRaww12 *| raw and typed; 8 spaces |*
 
-!someThng12 lb or
+!someRaww12 ty or
 
-	cr
 	or
 
-!someThng12 mk !someMobb23 {} !someOrdinal *| {!someOrdinal !someOrdinal} 8 spaces |*
+!someTypd12 un
 
+!someThng12 mk [!someRaww23 {} !someOrdinal]/[!someTypd12]
+	*| {!someOrdinal12 !someOrdinal12} 0: next |*
+
+	*| These can only be applied to raw thing. |*
 	!someThng12 cl {}| rw
 	
-	!someRaww12 cd {}| cr
-	
+	!someRaww12 no {}| or
+		*| noreos |*
+
 	!someRaww12 ft {}| rw
 	
-	ls nm !someName12 *| name |*
+	cr nm !someName12 *| name |*
+		*| crown |*
 	*| instruction yield |*
 	*| !someName12.1 |*
 
 ==== ==== ==== ====
 
-	!someRaww2 er {}
-	*| |*
+	!someRaww12 er {}
 
 ==== ==== ==== ====
 
