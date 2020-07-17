@@ -1,51 +1,40 @@
-rw
+wq: weaqlar / vq: veaqlar
 
-wq: weaqlar
-vq: veaqlar
-
-cnncncncncncncnccncncncncnncncncncnncncncncnncncncncncn + cnncnncncncnncnccncncncncncc
-This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUVWXYZ!!
+cnncncncncncncnccncncncncnncncncncnncncncncnncncncncncn + cnncnncncncnncnccncncncncncc + cnncncnc
+This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUVWXYZ!! + ABCDEFGH
 	"| and ""
 
+*| 8 spaces |*
 
-th !someRaww12 *| raw and typed; 8 spaces |*
+ms nw !someUMas12
 
-!someRaww12 ty or
+	*| Figure based commands: Un/ Ty: Within scope/ Fi; 1, 2, 4, 0 |*
+	!someMsFi12 ls| mass
+		*| or |*
 
-	or
+	!someMsFi12 !someOrdn12 !someOrdn12? ft| figi
 
-!someTypd12 un
-
-!someThng12 mk [!someRaww23 {} !someOrdinal]/[!someTypd12]
-	*| {!someOrdinal12 !someOrdinal12} 0: next |*
-
-	*| These can be applied to only raw thing. |*
-	!someRaww12 cl {}| rw
+	!someMsFi12 !someOrdn12 !someOrdn12? cl| figi
 	
-	!someRaww12 no {}| or
-		*| noreos |*
+	ls nm !someName12
+		*| instruction yield |*
+		*| !someName12.1 |*
 
-	!someRaww12 ft {}| rw
-	
-	cr nm !someName12 *| name |*
-		*| crown |*
-	*| instruction yield |*
-	*| !someName12.1 |*
+	!someMass12 pl !someMsFi12 !someOrdn12|
+
+	!someName.1 rn !someNNme12
 
 ==== ==== ==== ====
 
-	!someRaww12 er {}
+	!someMsFi12 !someOrdn12 !someOrdn12? er
 
 ==== ==== ==== ====
 
 vv
 	-- some instruction --
 	-- some instruction --
-	-- some instruction --
-	-- some instruction --
-	vv (x id y) oo ([a id b] an [c nt d]) oo (r id s) oo (c id d) oo
-		(e id f) oo (f id g) oo (g id h) oo (i id j) oo (k id l) oo
-		(l id m) oo (n id o)
+	vv (x id {y !someOrdn? !someOrdn?}) oo ([a id b] an [c nt d]) oo (r id s) oo (c id d) oo
+		(e id f) oo (f id g) oo (g id h) oo (i id j) oo (k id l) oo (l id m) oo (n id o)
 		*| () for oos and [] for ans |*
 
 ww
@@ -66,20 +55,15 @@ vv
 xx
 	-- some instruction --
 	-- some instruction --
-	-- some instruction --
-	-- some instruction --
 	xx 16
 
 zz
-	-- some instruction --
-	-- some instruction --
 	-- some instruction --
 	-- some instruction --
 	zz
 zz
 	-- some instruction --
 	-- some instruction --
-
 	pr
 	zz
 
