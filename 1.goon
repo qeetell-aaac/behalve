@@ -1,53 +1,48 @@
+someMass12
+
 wq
 
 cnncncncncncncnccncncncncnncncncncnncncncncnnc + cnnnnnccncnc
 
 *| 8 spaces |*
 
-!someMass12
-
-		!someMsFi12 (lO) ft| mass: or
+		someMsFi12 (lO) ft| mass: or
 
 	*| 1; 2; 4; 8; 16; 32; 64; 128; last [c]; next [n] |*
-	!someMsFi12 !someOrdn12 !someOrdn12? ft| figi
+	someMsFi12 someOrdn12 someOrdn12? ft| figi
 
-	!someMsFi12 !someOrdn12 !someOrdn12? cl| figi
+	someMsFi12 someOrdn12 someOrdn12? cl| figi
 	
-	ii !someName12
+	ii someName12
 		*| instruction yield |*
-		*| !someName12.1 |*
+		*| someName12.1 |*
 
-	!someMsFi12 !someOrdn12 mk cncN/!someMsFi12
+	someMsFi12 someOrdn12 mk cncN/someMsFi12
 
 ==== ==== ==== ====
 
 vv
-	-- some instruction --
-	-- some instruction --
-	vv on cnncnnnc !someMsFi12 !someOrdn12 !someOrdn12? id
-		oo !someMsFi12 !someMsFi12 ds
-			an /!someMsFi12 !someMsFi12 id
-				oo !someMsFi12 !someMsFi12 id\
-		oo !someMsFi12 !someMsFi12 ds
-			an /!someMsFi12 !someMsFi12 id
-				oo !someMsFi12 !someMsFi12 id\
-			an !someMsFi12 !someMsFi12 id
-		*| /\; (): For 1st among 2 |*
+-- some instruction --
+-- some instruction --
+vv on cnncnnnc someMsFi12 someOrdn12 someOrdn12? id oo someMsFi12 someMsFi12 ds an /someMsFi12
+someMsFi12 id oo someMsFi12 someMsFi12 id\ oo someMsFi12 someMsFi12 ds an /someMsFi12 someMsFi12
+id oo someMsFi12 someMsFi12 id\ an someMsFi12 someMsFi12 id
+*| /\; (): For 1st among 2 |*
 
 vv
 vv
-	-- some instruction --
-	-- some instruction --
-	vv on ----
+-- some instruction --
+-- some instruction --
+vv on ----
+
 vv
-	-- some instruction --
-	-- some instruction --
-	vv on ----
+-- some instruction --
+-- some instruction --
+vv on ----
 vv
-**	-- some instruction --
-**	-- some instruction --
-**	vv xx
-	vv sl
+vv sl
+
+---- ---- ---- ----
 
 vv
 	-- some instruction --
