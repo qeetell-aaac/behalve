@@ -1,34 +1,37 @@
-wq: weaqlar / vq: veaqlar
+wq
 
-cnncncncncncncnccncncncncnncncncncnncncncncnncncncncncn + cnncnncncncnncnccncncncncncc + cnncncnc
-This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUVWXYZ!! + ABCDEFGH
-	"| and ""
+cnncncncncncncnccncncncncnncncncncnncncncncnnc + cnnnnnccncnc
 
 *| 8 spaces |*
 
-!someMass12 in
+!someMass12
 
-	*| 0: last; 1: next |*
 		!someMsFi12 (lO) ft| mass: or
 
-	!someMsFi12 (!someOrdn12 !someOrdn12?) ft| figi
+	*| 1; 2; 4; 8; 16; 32; 64; 128; last [c]; next [n] |*
+	!someMsFi12 !someOrdn12 !someOrdn12? ft| figi
 
-	!someMsFi12 (!someOrdn12 !someOrdn12?) cl| figi
+	!someMsFi12 !someOrdn12 !someOrdn12? cl| figi
 	
-	lI (nm) mk !someName12
+	lN !someName12
 		*| instruction yield |*
 		*| !someName12.1 |*
 
-	!someMsFi12 (!someOrdn12 !someOrdn12?) mk cncNcnnC/!someFiFi12
+	!someMsFi12 !someOrdn12 mk cncN/!someMsFi12
 
 ==== ==== ==== ====
 
 vv
 	-- some instruction --
 	-- some instruction --
-	vv /cn x (!someOrdn12 !someOrdn12?) {id} c\
-		oo /[a b {id} c]
-			an [v d {id} n]\
+	vv /cnncnnnc !someMsFi12 (!someOrdn12 !someOrdn12?) id\
+		oo /[!someMsFi12 !someMsFi12 nI]
+			an [!someMsFi12 !someMsFi12 id]\
+		oo /[!someMsFi12 !someMsFi12 nI]
+			an [!someMsFi12 !someMsFi12 id]\
+		oo /[!someMsFi12 !someMsFi12 nI]
+			an [!someMsFi12 !someMsFi12 id]\
+		*| (): For 2 |*
 
 ww
 vv
