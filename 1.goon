@@ -6,36 +6,33 @@ This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUV
 
 *| 8 spaces |*
 
-ms nw !someUMas12
+!someMass12 in
 
 	*| Figure based commands: Un/ Ty: Within scope/ Fi; 1, 2, 4, 0 |*
-	!someMsFi12 ls| mass
-		*| or |*
+	!someMsFi12 (!someOrdn12 !someOrdn12?) gt| figi
 
-	!someMsFi12 !someOrdn12 !someOrdn12? ft| figi
+	!someMsFi12 (!someOrdn12 !someOrdn12?) cl| figi
 
-	!someMsFi12 !someOrdn12 !someOrdn12? cl| figi
+		!someMsFi12 (lO) gt| mass: or
 	
-	ls nm !someName12
+	lI (nm) mI !someName12
 		*| instruction yield |*
 		*| !someName12.1 |*
 
-	!someMass12 pl !someMsFi12 !someOrdn12|
-
-	!someName.1 rn !someNNme12
+	!someMsFi12 (!someOrdn12) mI !someFiMF12
 
 ==== ==== ==== ====
 
-	!someMsFi12 !someOrdn12 !someOrdn12? er
+	nccncncn !someMsFi12 (!someOrdn12 !someOrdn12?) {id} gt| mass: bl
 
 ==== ==== ==== ====
 
 vv
 	-- some instruction --
 	-- some instruction --
-	vv (x id {y !someOrdn? !someOrdn?}) oo ([a id b] an [c nt d]) oo (r id s) oo (c id d) oo
-		(e id f) oo (f id g) oo (g id h) oo (i id j) oo (k id l) oo (l id m) oo (n id o)
-		*| () for oos and [] for ans |*
+	vv /cn x (!someOrdn12 !someOrdn12?) {id} c\
+		oo /[a b {id} c]
+			an [v d {id} n]\
 
 ww
 vv
