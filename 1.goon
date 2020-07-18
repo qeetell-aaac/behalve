@@ -19,7 +19,7 @@ This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUV
 		*| instruction yield |*
 		*| !someName12.1 |*
 
-	!someMsFi12 (!someOrdn12) mI !someFiMF12
+	!someMsFi12 (!someOrdn12 !someOrdn12?) mI !someFiMF12
 
 ==== ==== ==== ====
 
