@@ -8,22 +8,18 @@ This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUV
 
 !someMass12 in
 
-	*| Figure based commands: Un/ Ty: Within scope/ Fi; 1, 2, 4, 0 |*
-	!someMsFi12 (!someOrdn12 !someOrdn12?) gt| figi
+	*| 0: last; 1: next |*
+		!someMsFi12 (lO) ft| mass: or
+
+	!someMsFi12 (!someOrdn12 !someOrdn12?) ft| figi
 
 	!someMsFi12 (!someOrdn12 !someOrdn12?) cl| figi
-
-		!someMsFi12 (lO) gt| mass: or
 	
 	lI (nm) mk !someName12
 		*| instruction yield |*
 		*| !someName12.1 |*
 
-	!someMsFi12 (!someOrdn12 !someOrdn12?) mk !someFiMF12
-
-==== ==== ==== ====
-
-	nccncncn !someMsFi12 (!someOrdn12 !someOrdn12?) {id} gt| mass: bl
+	!someMsFi12 (!someOrdn12 !someOrdn12?) mk cncNcnnC/!someFiFi12
 
 ==== ==== ==== ====
 
@@ -63,6 +59,3 @@ zz
 	-- some instruction --
 	pr
 	zz
-
-==== ==== ==== ====
-
