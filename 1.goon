@@ -15,11 +15,11 @@ This is some piece of text. ABCDEFGHIJKLMNOPQRSTUVWXYZ! + ABCDEFGHIJKLMNOPQRSTUV
 
 		!someMsFi12 (lO) gt| mass: or
 	
-	lI (nm) mI !someName12
+	lI (nm) mk !someName12
 		*| instruction yield |*
 		*| !someName12.1 |*
 
-	!someMsFi12 (!someOrdn12 !someOrdn12?) mI !someFiMF12
+	!someMsFi12 (!someOrdn12 !someOrdn12?) mk !someFiMF12
 
 ==== ==== ==== ====
 
@@ -63,4 +63,6 @@ zz
 	-- some instruction --
 	pr
 	zz
+
+==== ==== ==== ====
 
