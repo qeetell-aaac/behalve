@@ -13,7 +13,7 @@ cnncncncncncncnccncncncncnncncncncnncncncncnnc + cnnnnnccncnc
 
 	!someMsFi12 !someOrdn12 !someOrdn12? cl| figi
 	
-	lN !someName12
+	ii !someName12
 		*| instruction yield |*
 		*| !someName12.1 |*
 
@@ -24,14 +24,14 @@ cnncncncncncncnccncncncncnncncncncnncncncncnnc + cnnnnnccncnc
 vv
 	-- some instruction --
 	-- some instruction --
-	vv /cnncnnnc !someMsFi12 (!someOrdn12 !someOrdn12?) id\
-		oo /[!someMsFi12 !someMsFi12 nI]
+	vv /cnncnnnc !someMsFi12 !someOrdn12 !someOrdn12? id\
+		oo /[!someMsFi12 !someMsFi12 ds]
 			an [!someMsFi12 !someMsFi12 id]\
-		oo /[!someMsFi12 !someMsFi12 nI]
+		oo /[!someMsFi12 !someMsFi12 ds]
 			an [!someMsFi12 !someMsFi12 id]\
-		oo /[!someMsFi12 !someMsFi12 nI]
+		oo /[!someMsFi12 !someMsFi12 ds]
 			an [!someMsFi12 !someMsFi12 id]\
-		*| (): For 2 |*
+		*| (): For 1 among 2 |*
 
 ww
 vv
