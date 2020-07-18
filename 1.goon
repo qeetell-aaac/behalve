@@ -24,41 +24,42 @@ cnncncncncncncnccncncncncnncncncncnncncncncnnc + cnnnnnccncnc
 vv
 	-- some instruction --
 	-- some instruction --
-	vv /cnncnnnc !someMsFi12 !someOrdn12 !someOrdn12? id\
-		oo /[!someMsFi12 !someMsFi12 ds]
-			an [!someMsFi12 !someMsFi12 id]\
-		oo /[!someMsFi12 !someMsFi12 ds]
-			an [!someMsFi12 !someMsFi12 id]\
-		oo /[!someMsFi12 !someMsFi12 ds]
-			an [!someMsFi12 !someMsFi12 id]\
-		*| (): For 1 among 2 |*
+	vv on cnncnnnc !someMsFi12 !someOrdn12 !someOrdn12? id
+		oo !someMsFi12 !someMsFi12 ds
+			an /!someMsFi12 !someMsFi12 id
+				oo !someMsFi12 !someMsFi12 id\
+		oo !someMsFi12 !someMsFi12 ds
+			an /!someMsFi12 !someMsFi12 id
+				oo !someMsFi12 !someMsFi12 id\
+			an !someMsFi12 !someMsFi12 id
+		*| /\; (): For 1st among 2 |*
 
-ww
+vv
 vv
 	-- some instruction --
 	-- some instruction --
-	vv ----
+	vv on ----
 vv
 	-- some instruction --
 	-- some instruction --
-	vv ----
+	vv on ----
 vv
 **	-- some instruction --
 **	-- some instruction --
-**	vv aa
-	ww
+**	vv xx
+	vv sl
 
-xx
+vv
 	-- some instruction --
 	-- some instruction --
-	xx 16
+	vv 16
 
-zz
+vv
 	-- some instruction --
 	-- some instruction --
-	zz
-zz
+	vv ex
+vv
 	-- some instruction --
 	-- some instruction --
 	pr
-	zz
+	vv dt
