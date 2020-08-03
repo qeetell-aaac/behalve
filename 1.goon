@@ -1,9 +1,10 @@
 someMass12
-someMass12 a cncncncnncnnncncncn
-someMass12 f 1 57567/l
-someMass12 c 1 57567/l
+someMass12 a cnccnncncnncnnncncncncncncncncnn someMass12 c|someMass12:23 (cnnnnc):23|someMass12
+	2+
+someMass12 f 1 57567363413|l
+someMass12 c 1 57567338614|l
 l n someInst12
-someMass12 a someInst12.1
+someMass12 a someInst12
 <
 ..some instruction..
 ..some instruction..
@@ -29,7 +30,14 @@ someMass12 a someInst12.1
 <
 ..some instruction..
 ..some instruction..
-	> e
-	..s..
-	..s..
+	> e <
+	..i..
+	..i..
+	>
 
+---- ---- ---- ----
+
+$a g someMobb12
+$b c
+
+%
