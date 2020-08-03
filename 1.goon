@@ -1,0 +1,35 @@
+someMass12
+someMass12 a cncncncnncnnncncncn
+someMass12 f 1 57567/l
+someMass12 c 1 57567/l
+l n someInst12
+someMass12 a someInst12.1
+<
+..some instruction..
+..some instruction..
+	> o [someMass12 : someMass12] & [[someMass12 ! someMass12] | [someMass12 : someMass12]]
+[
+<
+..some instruction..
+..some instruction..
+	> o [someMass12 : someMass12] & [[someMass12 ! someMass12] | [someMass12 : someMass12]]
+<
+..some instruction..
+..some instruction..
+	> o [someMass12 : someMass12] & [[someMass12 ! someMass12] | [someMass12 : someMass12]]
+<
+..some instruction..
+..some instruction..
+	> l
+]
+<
+..some instruction..
+..some instruction..
+	> 4/sM12
+<
+..some instruction..
+..some instruction..
+	> e
+	..s..
+	..s..
+
