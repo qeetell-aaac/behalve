@@ -1,44 +1,47 @@
 someMass12
-someMass12 a cnccnncncnncnnncncncncncncncncnn someMass12 c|someMass12:23 (cnnnnc):23|someMass12
-	2+
+someMass12 a cnccnncncnncnnncncncncncncnn someMass12 c|someMass12:23 cnnnncnc:23|someMass12
+	2+ and 8 total
 someMass12 f 1 57567363413|l
 someMass12 c 1 57567338614|l
 l n someInst12
 someMass12 a someInst12
 <
-..some instruction..
-..some instruction..
-	> o [someMass12 : someMass12] & [[someMass12 ! someMass12] | [someMass12 : someMass12]]
+	..some instruction..
+	..some instruction..
+	> o [some12 : some12] & [[some12 ! some12] | [some12 : some12]]
 [
 <
-..some instruction..
-..some instruction..
-	> o [someMass12 : someMass12] & [[someMass12 ! someMass12] | [someMass12 : someMass12]]
+	..some instruction..
+	..some instruction..
+	> o [some12 : some12] & [[some12 ! some12] | [some12 : some12]]
 <
-..some instruction..
-..some instruction..
-	> o [someMass12 : someMass12] & [[someMass12 ! someMass12] | [someMass12 : someMass12]]
+	..some instruction..
+	..some instruction..
+	> o [some12 : some12] & [[some12 ! some12] | [some12 : some12]]
 <
-..some instruction..
-..some instruction..
+	..some instruction..
+	..some instruction..
 	> l
 ]
 <
-..some instruction..
-..some instruction..
+	..some instruction..
+	..some instruction..
 	> 4/sM12
 <
-..some instruction..
-..some instruction..
-	> e <
+	..some instruction..
+	..some instruction..
+	> e
+<
 	..i..
 	..i..
-	>
+	< p > o some12 : some12
+	> d
 
 ---- ---- ---- ----
 
-$a g someMobb12
-$b c
+someMass12 p :a
+c 'b
+someMass12 p :someMass12
 
 %
 
