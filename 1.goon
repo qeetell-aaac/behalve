@@ -1,47 +1,47 @@
-someMass12!
-someMass12 a cnccnncncnncnnncncncncncncnn someMass12 c|someMass12:23 cnnnncnc:23|someMass12!
+someMass12
+someMass12 ad cnccnncncnncnnncncncncncncnn-someMass12-c|someMass12:23-cnnnncnc:23|someMass12
 	2+ and 8 total
-someMass12 f 1 57567363413|l!
-someMass12 c 1 57567338614|l!
-l n someInst12!
-someMass12 a someInst12!
+someMass12 ft 1 57567363413|l
+someMass12 cl 1 57567338614|l
+ls nm someInst12
+someMass12 ad someInst12.fg
 <
-	..some instruction..!
-	..some instruction..!
-	> o [some12 : some12] & [[some12 ! some12] | [some12 : some12]]!
+	..some instruction..
+	..some instruction..
+	> on [some12 : some12] & [[some12 ! some12] | [some12 : some12]]
 [
 <
-	..some instruction..!
-	..some instruction..!
-	> o [some12 : some12] & [[some12 ! some12] | [some12 : some12]]!
+	..some instruction..
+	..some instruction..
+	> on [some12 : some12] & [[some12 ! some12] | [some12 : some12]]
 <
-	..some instruction..!
-	..some instruction..!
-	> o [some12 : some12] & [[some12 ! some12] | [some12 : some12]]!
+	..some instruction..
+	..some instruction..
+	> on [some12 : some12] & [[some12 ! some12] | [some12 : some12]]
 <
-	..some instruction..!
-	..some instruction..!
-	> l!
-	] s!
+	..some instruction..
+	..some instruction..
+	> ls
+	] sl
 <
-	..some instruction..!
-	..some instruction..!
-	> r 4/sM12!
+	..some instruction..
+	..some instruction..
+	> rp 4/sM12
 <
-	..some instruction..!
-	..some instruction..!
-	> e
+	..some instruction..
+	..some instruction..
+	> ex
 <
 	..i..
 	..i..
-	< p > o some12 : some12
-	> d!
+	< pr > on some12 : some12
+	> dt
 
 ---- ---- ---- ----
 
-someMass12 g :a!
- :b!
-someMass12 g :someMass12!
+ababababab|someMass12 ps c|someMass12 1|as|someMass12
+	tl rp
+ababababab|someMass12 ob c|someMass12 1|as|someMass12
 
 %
 
